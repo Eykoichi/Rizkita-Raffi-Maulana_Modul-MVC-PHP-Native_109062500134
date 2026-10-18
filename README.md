@@ -61,7 +61,8 @@ mvc-native/
 ---
 
 ## Histori Git
-* 9972159 (HEAD -> main) style: tambah CSS dan interaksi JavaScript (pencarian, modal hapus, cek kode duplikat)
+* 1d54cc8 (HEAD -> main) docs: melengkapi README dengan panduan instalasi dan git log
+* 9972159 style: tambah CSS dan interaksi JavaScript (pencarian, modal hapus, cek kode duplikat)
 * 772a0f4 feat: tambah view layout, daftar produk, serta form create dan edit
 * 9430278 feat: tambah ProdukController, validasi input, dan front controller
 * de5c581 feat: tambah model Produk dengan operasi CRUD prepared statement
