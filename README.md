@@ -19,34 +19,25 @@ Aplikasi CRUD sederhana untuk mempelajari pola Model-View-Controller pada PHP Na
 
 ---
 
-## Struktur Folder MVC
+## Struktur Folder
 data_produk_mvc/
-├── app/
-│   ├── controllers/
-│   │   └── ProdukController.php   # Mengatur alur logika request & respon
-│   ├── models/
-│   │   └── Produk.php             # Menangani query database menggunakan PDO
-│   └── views/
-│       ├── layout/
-│       │   ├── header.php         # Bagian atas layout web (navbar, CDN CSS/JS)
-│       │   └── footer.php         # Bagian bawah layout web (footer)
-│       └── produk/
-│           ├── index.php          # Halaman utama daftar produk
-│           ├── create.php         # Halaman form tambah produk
-│           ├── edit.php           # Halaman form edit produk
-│           └── _form.php          # Parsial form reusable
-├── config/
-│   └── database.php               # Konfigurasi koneksi database PDO
-├── database/
-│   └── produk_elektronik.sql      # Skema database & data awal
-├── public/
-│   ├── index.php                  # Front Controller / Entry Point utama aplikasi
-│   ├── css/
-│   │   └── style.css              # Berkas stylesheet tambahan
-│   └── js/
-│       └── app.js                 # Berkas skrip JavaScript tambahan
-├── .gitignore                     # Berkas penyaring file sementara
-└── README.md                      # Dokumentasi proyek
+│
+├── app/                  # Direktori utama logika aplikasi (MVC)
+│   ├── controllers/      # Mengatur alur logika request dari pengguna & merespons tampilan
+│   ├── models/           # Menangani interaksi dan query database menggunakan PDO
+│   └── views/            # Menyimpan antarmuka pengguna (UI) / file tampilan HTML & PHP
+│       ├── layout/       # Komponen tata letak global (header, footer, dll)
+│       └── produk/       # Kumpulan halaman antarmuka khusus fitur produk
+│
+├── config/               # Berkas konfigurasi sistem (koneksi database, dll)
+├── database/             # Berkas SQL untuk migrasi skema database dan data awal
+├── public/               # Direktori publik yang dapat diakses langsung oleh browser (Document Root)
+│   ├── css/              # Berkas stylesheet tambahan untuk styling antarmuka
+│   ├── js/               # Berkas skrip JavaScript untuk interaktivitas
+│   └── index.php         # Front Controller / Entry Point utama yang mengarahkan semua request
+│
+├── .gitignore            # Berkas untuk menentukan file/folder yang diabaikan oleh Git
+└── README.md             # Dokumentasi proyek
 
 ---
 
