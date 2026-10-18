@@ -20,31 +20,31 @@ Aplikasi CRUD sederhana untuk mempelajari pola Model-View-Controller pada PHP Na
 ---
 
 ## Struktur Folder MVC
-data_produk_mvc/
+mvc-native/
 ├── app/
-│   ├── controllers/
-│   │   └── ProdukController.php
-│   ├── models/
-│   │   └── Produk.php
-│   └── views/
-│       ├── layout/
-│       │   ├── header.php
-│       │   └── footer.php
-│       └── produk/
-│           ├── index.php
-│           ├── create.php
-│           ├── edit.php
-│           └── _form.php
+│ ├── controllers/
+│ │ └── ProdukController.php
+│ ├── models/
+│ │ └── Produk.php
+│ └── views/
+│ ├── layout/
+│ │ ├── header.php
+│ │ └── footer.php
+│ └── produk/
+│ ├── index.php
+│ ├── create.php
+│ ├── edit.php
+│ └── _form.php
 ├── config/
-│   └── database.php
+│ └── database.php
 ├── database/
-│   └── produk.sql
+│ └── produk.sql
 ├── public/
-│   ├── index.php
-│   ├── css/
-│   │   └── style.css
-│   └── js/
-│       └── app.js
+│ ├── css/
+│ │ └── style.css
+│ ├── js/
+│ │ └── app.js
+│ └── index.php
 ├── .gitignore
 └── README.md
 
