@@ -20,33 +20,33 @@ Aplikasi CRUD sederhana untuk mempelajari pola Model-View-Controller pada PHP Na
 ---
 
 ## Struktur Folder MVC
-mvc-native/
+data_produk_mvc/
 ├── app/
-│ ├── controllers/
-│ │ └── ProdukController.php
-│ ├── models/
-│ │ └── Produk.php
-│ └── views/
-│ ├── layout/
-│ │ ├── header.php
-│ │ └── footer.php
-│ └── produk/
-│ ├── index.php
-│ ├── create.php
-│ ├── edit.php
-│ └── _form.php
+│   ├── controllers/
+│   │   └── ProdukController.php   # Mengatur alur logika request & respon
+│   ├── models/
+│   │   └── Produk.php             # Menangani query database menggunakan PDO
+│   └── views/
+│       ├── layout/
+│       │   ├── header.php         # Bagian atas layout web (navbar, CDN CSS/JS)
+│       │   └── footer.php         # Bagian bawah layout web (footer)
+│       └── produk/
+│           ├── index.php          # Halaman utama daftar produk
+│           ├── create.php         # Halaman form tambah produk
+│           ├── edit.php           # Halaman form edit produk
+│           └── _form.php          # Parsial form reusable
 ├── config/
-│ └── database.php
+│   └── database.php               # Konfigurasi koneksi database PDO
 ├── database/
-│ └── produk.sql
+│   └── produk_elektronik.sql      # Skema database & data awal
 ├── public/
-│ ├── css/
-│ │ └── style.css
-│ ├── js/
-│ │ └── app.js
-│ └── index.php
-├── .gitignore
-└── README.md
+│   ├── index.php                  # Front Controller / Entry Point utama aplikasi
+│   ├── css/
+│   │   └── style.css              # Berkas stylesheet tambahan
+│   └── js/
+│       └── app.js                 # Berkas skrip JavaScript tambahan
+├── .gitignore                     # Berkas penyaring file sementara
+└── README.md                      # Dokumentasi proyek
 
 ---
 
