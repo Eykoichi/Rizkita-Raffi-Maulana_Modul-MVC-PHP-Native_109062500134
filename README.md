@@ -20,8 +20,8 @@ Aplikasi CRUD sederhana untuk mempelajari pola Model-View-Controller pada PHP Na
 ---
 
 ## Struktur Folder
+```text
 data_produk_mvc/
-│
 ├── app/                  # Direktori utama logika aplikasi (MVC)
 │   ├── controllers/      # Mengatur alur logika request dari pengguna & merespons tampilan
 │   ├── models/           # Menangani interaksi dan query database menggunakan PDO
@@ -38,6 +38,7 @@ data_produk_mvc/
 │
 ├── .gitignore            # Berkas untuk menentukan file/folder yang diabaikan oleh Git
 └── README.md             # Dokumentasi proyek
+```
 
 ---
 
